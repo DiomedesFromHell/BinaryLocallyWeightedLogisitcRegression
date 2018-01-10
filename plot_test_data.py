@@ -49,5 +49,5 @@ for i in range(len(x1)):
     else:
         y.append(0)
 
-plt.scatter(x=x1, y=x2, c=y)
+plt.scatter(x=x1, y=x2, s=25, c=y)
 plt.show()
